@@ -1,0 +1,123 @@
+/* * {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    text-align: center;
+    background: #7389AE;
+}
+
+.container {
+    height: 70vmin;
+    width: 70vmin;
+    display: flex;
+    justify-content: center;
+
+}
+
+.game {
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+
+.box {
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+    background-color: #E0E0E2;
+    font-size: 8vmin;
+    color: #b0413e;
+} */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #7389AE;
+    /* background-color: #548687; */
+    text-align: center;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.heading {
+    margin-top: 2px;
+}
+
+.container {
+    height: 70vh;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.game {
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+
+ .box {
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+    font-size: 8vmin;
+    color: #b0413e;
+    background-color: #FDFD96;
+} 
+/* background-color: #ffffc7; */
+
+.resetBtn {
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #191913;
+    color: #fff;
+    border-radius: 1rem;
+    border: none;
+}
+
+.resetBtn:hover {
+    background-color: #0f0e1f;
+}
+
+.newBtn {
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #191913;
+    color: #fff;
+    border-radius: 1rem;
+    border: none;
+}
+.newBtn:hover {
+    background-color: #0f0e1f;
+}
+.msg-container{
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+}
+#msg {
+    color: #FDFD96;
+    font-size: 3vmin;
+  }
+.hide{
+    display:none;
+}
